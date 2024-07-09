@@ -1,0 +1,67 @@
+.productgall{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 50px;
+    padding: 30px;
+}
+.prodtit{
+    font-weight: bold;
+    font-size: 40px;
+}
+.gallery-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 500px;
+}
+@keyframes scaling {
+  from {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    opacity: 40%;
+  }
+  to {
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+  }
+}
+.gall-1{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    opacity: 40%;
+}
+.gall-2{
+    animation: scaling 1s;
+    animation-fill-mode: forwards;
+}
+.dirbtns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.gorl{
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-color: var(--normgreen);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.bigdot{
+    width: 40px;
+    height: auto;
+}
+.smalldot{
+    width: 20px;
+    height: auto;
+}

@@ -1,0 +1,132 @@
+.contact{
+    width: 100%;
+    margin-top: 50px;
+}
+.contcup{
+    width: 100%;
+    height: 500px;
+    background-color: var(--darkgreen);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contctxt{
+    color: white;
+    width: 400px;
+    line-height: 30px;
+}
+.contc-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.soci{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.sociimg{
+    width: 30px;
+    height: auto;
+}
+.contc-3{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contc-3tit{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.contclst{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+}
+.contctlnk{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.contctlnk:hover{
+    border-bottom: 1px solid white;
+}
+.contc-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.f-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.inp-3{
+    border: none;
+    width: 250px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: var(--darkgreen);
+}
+.f-2{
+    width: 510px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    resize: none;
+    color: var(--darkgreen);
+}
+.inp-3:focus{
+    outline: none;
+}
+.f-2:focus{
+    outline: none;
+}
+.sbbtn{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--normgreen);
+    color: white;
+    font-weight: bold;
+}
+.sbbtn:hover{
+    background-color: white;
+    color: var(--darkgreen);
+}
+
+.contcdw{
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 900;
+    font-size: 20px;
+}
+.numphone{
+    color: var(--normgreen);
+}
+.dw-3-2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.plnk{
+    color: var(--darkgreen);
+    text-decoration: none;
+}
+.plnk:hover{
+    border-bottom: 1px solid black;
+}
+.vert{
+    height: 20px;
+    border: 2px solid black;
+}

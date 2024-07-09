@@ -1,0 +1,128 @@
+.signup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+.lf-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.lg {
+  width: 200px;
+  height: auto;
+}
+.lu-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.lutxt{
+    text-align: center;
+}
+.lutxt-1 {
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+}
+.lutxt-2 {
+    font-size: 12px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+}
+.lu-2{
+    color: var(--darkgreen);
+    font-size: 40px;
+    font-weight: bold;
+}
+.lu-3{
+    width: 700px;
+    height: 500px;
+    position: relative;
+}
+.vd{
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.bkg{
+    width: 400px;
+    height: 400px;
+    background-color: var(--darkgreen);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+.ri-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.riu-1{
+  font-size: 40px;
+  font-weight: 800;
+}
+.riu-2{
+  font-size: 20px;
+  font-weight: lighter;
+  color: var(--darkgreen);
+}
+.f-2{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.f-2-itm{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.lbl-1{
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--black);
+}
+.inp-1{
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+  color: var(--darkgreen);
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(233, 229, 229);
+}
+.inp-1:focus{
+  background-color: white;
+  outline: 1px solid green;
+}
+
+.chose{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.ch-1{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.sbmt2{
+  background-color: var(--darkgreen);
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  width: 250px;
+  font-weight: 700;
+}
+.alrd{
+  font-size: 20px;
+  color: var(--darkgreen);
+  align-self: flex-end;
+}

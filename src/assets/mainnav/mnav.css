@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.mnav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    height: 100px;
+    width: auto;
+}
+.right-1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.txt-1{
+    text-align: center;
+}
+.txtup{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+}
+.txtdwn{
+    font-size: 12px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+}
+.left-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.lst{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.lnk{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.lnk:hover{
+    border-bottom: 1px solid black;
+    color: var(--green);
+}
+.bookbtn{
+    padding: 10px;
+    width: 230px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--darkgreen);
+    color: white;
+    font-weight: 900;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: transform 500ms;
+}
+.bookbtn:active{
+    transform: scale(0.8);
+}

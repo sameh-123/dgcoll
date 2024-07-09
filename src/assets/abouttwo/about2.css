@@ -1,0 +1,87 @@
+.abouttwo{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    background-image: linear-gradient( 18deg, #0A4D50,#17AFB6);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 100px;
+
+}
+.para1{
+    background-image: linear-gradient(180deg,#2DE1B3,#12A8B9,rgba(255,0,0,0));
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    transform: skew(30deg);
+    top:0;
+    right: 300px;
+    z-index: -10px;
+}
+.para2{
+    background-image: linear-gradient(180deg,#40cf69,rgba(255,0,0,0));    height: 900px;
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    transform: skew(30deg);
+    top:200px;
+    right: 220px;
+    z-index: -10px;
+}
+.para3{
+    background-image: linear-gradient(180deg,#8ae4a4,rgba(255,0,0,0));
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    transform: skew(30deg);
+    top:100px;
+    right: 650px;
+    z-index: -10px;
+}
+.tr{
+    color: white;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 10px;
+}
+.txtt-1{
+    font-weight: 600;
+    font-size: 20px;
+}
+.txtt-2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.txtt-3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.fet{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.fetr{
+    width: 40px;
+    height: auto;
+}
+.fetl{
+    font-weight: 500;
+    font-size: 20px;
+}
+.tl{
+    height: 100%;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tlimg{
+    transform: rotate(30deg);
+}

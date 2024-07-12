@@ -172,3 +172,109 @@
   width: 200px;
   height: auto;
 }
+
+.ourteam-tit{
+  font-size: 40px;
+  font-weight: 800;
+  color: #0a4d50;
+}
+.ourteam{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+  width: 100%;
+
+  background-image: linear-gradient(180deg, white, var(--lightgreen), white);
+}
+.cmem{
+  width: 40px;
+  height: auto;
+}
+.team-mem{
+  width: 200px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.ourteam-itm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.mem-name{
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--darkgreen);
+  text-align: center;
+}
+.mem-pos{
+  font-size: 20px;
+  font-weight: lighter;
+  color: var(--darkgreen);
+  text-align: center;
+}
+.ourteam-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+.sameh{background-image: url("/members/sameh.jpg");
+box-shadow: 26px -30px 5px 3px rgba(0,0,0,0.2);}
+.sameh-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nada{background-image: url("/members/nada.jpg");
+box-shadow: 26px 25px 5px 3px rgba(0,0,0,0.2);}
+.nada-1{
+  position: absolute;
+  bottom: 50px;
+  left: 300px;
+}
+.ammar{background-image: url("/members/ammar.jpg");
+box-shadow: 26px 25px 5px 3px rgba(0,0,0,0.2);}
+.ammar-1{
+  position: absolute;
+  bottom: 100px;
+  left: 600px;
+}
+.ahmed{background-image: url("/members/ahmed.jpg");
+box-shadow: 26px -30px 5px 3px rgba(0,0,0,0.2);}
+.ahmed-1{
+  position: absolute;
+  top: 100px;
+  left: 900px;
+}
+.gehad{background-image: url("/members/gehad.jpg");
+box-shadow: 26px 25px 5px 3px rgba(0,0,0,0.2);}
+.gehad-1{
+  position: absolute;
+  bottom: 0;
+  left: 1200px;
+}
+.abd{background-image: url("/members/abd.jpg");
+box-shadow: 26px -30px 5px 3px rgba(0,0,0,0.2);}
+.abd-1{
+  position: absolute;
+  top: 0;
+  left: 1500px;
+}
+.mem-lnk{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

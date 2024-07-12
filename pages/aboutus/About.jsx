@@ -9,6 +9,10 @@ import arw from "/arr.png"
 import eye from "/eye.png"
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import linkedin from "/linkedin.png"
+import github from "/github.png"
+import MedAdv from '../../src/assets/medadv/MedAdv';
+import TechAdv from '../../src/assets/techadv/TechAdv';
 export default function About() {
   const [i, setI] = useState(0);
   useEffect(() => {
@@ -111,6 +115,91 @@ export default function About() {
           </div>
         </div>
       </div>
+      <div className="ourteam">
+        <div className="ourteam-tit">MEET OUR TEAM</div>
+        <div className="ourteam-cont">
+          <div className="ourteam-itm sameh-1">
+            <div className="team-mem sameh"></div>
+            <div className="mem-name">Sameh Mohamed</div>
+            <div className="mem-pos">Front-End Developer</div>
+            <div className="mem-lnk">
+              <a href="#">
+                <img src={linkedin} alt="linkedin" className="cmem" />
+              </a>
+              <a href="#">
+                <img src={github} alt="github" className="cmem" />
+              </a>
+            </div>
+          </div>
+          <div className="ourteam-itm nada-1">
+            <div className="team-mem nada"></div>
+            <div className="mem-name">Nada AlBayar</div>
+            <div className="mem-pos">Data Analyst</div>
+            <div className="mem-lnk">
+              <a href="#">
+                <img src={linkedin} alt="linkedin" className="cmem" />
+              </a>
+              <a href="#">
+                <img src={github} alt="github" className="cmem" />
+              </a>
+            </div>
+          </div>
+          <div className="ourteam-itm ammar-1">
+            <div className="team-mem ammar"></div>
+            <div className="mem-name">Ammar Rakha</div>
+            <div className="mem-pos">AI Engineer</div>
+            <div className="mem-lnk">
+              <a href="#">
+                <img src={linkedin} alt="linkedin" className="cmem" />
+              </a>
+              <a href="#">
+                <img src={github} alt="github" className="cmem" />
+              </a>
+            </div>
+          </div>
+          <div className="ourteam-itm ahmed-1">
+            <div className="team-mem ahmed"></div>
+            <div className="mem-name">Ahmed ElMersawy</div>
+            <div className="mem-pos">Back-End Developer</div>
+            <div className="mem-lnk">
+              <a href="#">
+                <img src={linkedin} alt="linkedin" className="cmem" />
+              </a>
+              <a href="#">
+                <img src={github} alt="github" className="cmem" />
+              </a>
+            </div>
+          </div>
+          <div className="ourteam-itm gehad-1">
+            <div className="team-mem gehad"></div>
+            <div className="mem-name">Mohamed Gehad</div>
+            <div className="mem-pos">Embeded Systems</div>
+            <div className="mem-lnk">
+              <a href="#">
+                <img src={linkedin} alt="linkedin" className="cmem" />
+              </a>
+              <a href="#">
+                <img src={github} alt="github" className="cmem" />
+              </a>
+            </div>
+          </div>
+          <div className="ourteam-itm abd-1">
+            <div className="team-mem abd"></div>
+            <div className="mem-name">Mohamed Ahmed</div>
+            <div className="mem-pos">Machine Learning</div>
+            <div className="mem-lnk">
+              <a href="#">
+                <img src={linkedin} alt="linkedin" className="cmem" />
+              </a>
+              <a href="#">
+                <img src={github} alt="github" className="cmem" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <TechAdv/>
+      <MedAdv/>
     </div>
   );
 }

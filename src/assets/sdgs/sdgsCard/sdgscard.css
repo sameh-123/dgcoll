@@ -1,0 +1,41 @@
+.sdgs-itm{
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+.shadow{
+    background-color: var(--black);
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+}
+.sdgs-itm-cont{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.up-10{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.up-right-10{
+    font-size: 50px;
+}
+.dwn-10{
+    width: 120px;
+    height: auto;
+    align-self: center;
+}

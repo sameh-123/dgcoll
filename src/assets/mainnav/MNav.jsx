@@ -15,10 +15,10 @@ export default function MNav(){
                 <ul className="lst">
                     <li className="lstitem"><Link to="/" className="lnk">Home</Link></li>
                     <li className="lstitem"><Link to="/aboutus" className="lnk">About US</Link></li>
-                    <li className="lstitem"><a href="#products" className="lnk">Products</a></li>
+                    <li className="lstitem"><Link to="/products" className="lnk">Products</Link></li>
                     <li className="lstitem"><a href="#contact" className="lnk">Contact Us</a></li>
                 </ul>
-                <Link to='signup'><button className="bookbtn">Book Consultation</button></Link>
+                <Link to='book'><button className="bookbtn">Book Consultation</button></Link>
             </div>
         </div>
     )

@@ -1,0 +1,47 @@
+.sdgs{
+    position: relative;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-image: linear-gradient(to right , var(--darkgreen), white);
+}
+.sdgs-tit{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.sdgs-cont{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    color: rgb(180, 119, 5);
+}
+.skw-10{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 150px;
+    height: 900px;
+    transform: skew(30deg);
+    background-image: linear-gradient(180deg , var(--darkgreen), var(--trq) , rgba(0,0,0,0.01));
+}
+.skw-11{
+    position: absolute;
+    top: 100px;
+    left: 270px;
+    width: 150px;
+    height: 700px;
+    transform: skew(30deg);
+    background-image: linear-gradient(180deg , var(--green) , rgba(0,0,0,0.01));
+}
+.skw-12{
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    width: 100px;
+    height: 500px;
+    transform: skew(30deg);
+    background-image: linear-gradient(180deg , var(--normgreen) , rgba(0,0,0,0.01));
+}

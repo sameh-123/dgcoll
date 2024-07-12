@@ -1,0 +1,65 @@
+.techadv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    background-image: linear-gradient(to right, var(--darkgreen) , var(--trq));
+}
+.tech-cont{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+.tech-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.tech-info{
+    width: 300px;
+    background-color: var(--normgreen);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.tech-name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tech-tit{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+.skw-15{
+    width: 150px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 300px;
+    transform: skew(-30deg);
+    background-image: linear-gradient(180deg , var(--darkgreen) , rgba(0,0,0,0.01));
+}
+.skw-16{
+    width: 150px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    right: 350px;
+    transform: skew(-30deg);
+    background-image: linear-gradient(180deg , var(--trq) , rgba(0,0,0,0.01));
+}
+.skw-17{
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    right: 250px;
+    transform: skew(-30deg);
+    background-image: linear-gradient(180deg , var(--normgreen) , rgba(0,0,0,0.01));
+}

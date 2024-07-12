@@ -1,0 +1,15 @@
+.done{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.done-tit{
+    font-size: 30px;
+    color: var(--normgreen);
+    font-weight: bolder;
+}
+.done-img{
+    width: 500px;
+    height: auto;
+}

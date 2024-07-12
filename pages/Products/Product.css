@@ -1,0 +1,104 @@
+.price{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 20px;
+    width: 350px;
+    height: 650px;
+    position: relative;
+    background-color: white;
+    box-shadow: -1px 0px 81px 12px rgba(0,0,0,0.4);
+}
+.mode{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: -20px;
+}
+.price-tit{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 300px;
+}
+.line{
+    border: 1px solid rgb(160, 158, 158);
+    width: 300px;
+}
+.serv-tit{
+    font-size: 20px;
+    font-weight: 700;
+}
+.serv-itm{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+.serv-img{
+    width: 25px;
+    height: auto;
+}
+.price-serv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.pricing-tit{
+    font-size: 20px;
+    font-weight: 700;
+}
+.pricing-val{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.val-sp{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.price-start{
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right , var(--blue) , var(--normgreen));
+    
+}
+.price-lnk{
+    align-self: center;
+}
+.price-cont-1{
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    /* background-color: var(--lightgreen); */
+    background-image: linear-gradient(rgba(0,0,0,0.01) , var(--lightgreen),rgba(0,0,0,0.01) );
+
+}
+.mode-1{
+    color: gold;
+    width: 150px;
+    background-image: linear-gradient(to right , var(--blue) ,var(--normgreen));
+}
+.p-cont-2{
+    color: white;
+    background-image: linear-gradient(to left , var(--blue) ,var(--trq));
+}

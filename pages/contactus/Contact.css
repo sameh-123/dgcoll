@@ -1,0 +1,98 @@
+.Contact{
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.contact-up{
+    display: flex;
+    align-items: center;
+    gap: 150px
+}
+.contact-up-right{
+}
+
+.cont-up-right-up{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.contact-img{
+    width: 40px;
+    height: auto;
+}
+.contact-txt{
+    font-size: 25px;
+    font-weight: lighter;
+    color: var(--black);
+}
+.rst-itm{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.line-2{
+    border: 1px solid gray;
+    height: 400px;
+}
+.contact-up-right{
+    background-color: var(--black);
+    padding: 50px;
+    border-radius: 10px;
+}
+.mesag{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.map{
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 33px -31px 34px -15px rgba(168,173,168,1);
+}
+.line-3{
+    width: 1200px;
+    border: 1px solid gray;
+}
+
+.contact-dwn{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.list-show{
+    background-color: white;
+    border: none;
+}
+.dir{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+.faq-itm-up{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-between;
+}
+.ans{
+    width: 500px;
+    font-size: 20px;
+}
+.faq-q{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.faq-itm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.faq-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

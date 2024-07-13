@@ -7,6 +7,7 @@ import Main from "../pages/mainpage/Main.jsx"
 import Book from '../pages/book/Book.jsx';
 import Done from '../pages/bookingDone/Done.jsx';
 import Product from '../pages/Products/Product.jsx';
+import Contact from '../pages/contactus/Contact.jsx';
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path:"products",
         element:<Product/>
+      },
+      {
+        path:"contactus",
+        element:<Contact/>
       }
     ],
   },

@@ -16,7 +16,7 @@ export default function MNav(){
                     <li className="lstitem"><Link to="/" className="lnk">Home</Link></li>
                     <li className="lstitem"><Link to="/aboutus" className="lnk">About US</Link></li>
                     <li className="lstitem"><Link to="/products" className="lnk">Products</Link></li>
-                    <li className="lstitem"><a href="#contact" className="lnk">Contact Us</a></li>
+                    <li className="lstitem"><Link to="/contactus" className="lnk">Contact Us</Link></li>
                 </ul>
                 <Link to='book'><button className="bookbtn">Book Consultation</button></Link>
             </div>

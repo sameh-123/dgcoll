@@ -16,7 +16,7 @@ export default function Contact() {
         <div className="faq-cont">
           <div className="faq-itm">
             <div className="faq-itm-up">
-              <div className="faq-q">what is the topic listing ?</div>
+              <div className="faq-q">what is DG COLLAR ?</div>
               <button className="list-show">
                 <img
                   src={p1 ? up : dwon}
@@ -30,15 +30,15 @@ export default function Contact() {
             </div>
             {p1 && (
               <div className="ans">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industrys standard dummy
-                text ever since the 1500s
+                DG Collar is a game-changing solution designed to revolutionize
+                livestock monitoring and address critical needs in cattle
+                management
               </div>
             )}
           </div>
           <div className="faq-itm">
             <div className="faq-itm-up">
-              <div className="faq-q">what is the topic listing ?</div>
+              <div className="faq-q">who are we ?</div>
               <button className="list-show">
                 <img
                   src={p2 ? up : dwon}
@@ -52,15 +52,15 @@ export default function Contact() {
             </div>
             {p2 && (
               <div className="ans">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the  standard dummy
-                text ever since the 1500s
+                we are a team of dreamers committed to crafting a brighter
+                tomorrow. We pour our hearts into everything we do, knowing that
+                our best today sets the stage for an even better future
               </div>
             )}
           </div>
           <div className="faq-itm">
             <div className="faq-itm-up">
-              <div className="faq-q">what is the topic listing ?</div>
+              <div className="faq-q">is it safe for environment ?</div>
               <button className="list-show">
                 <img
                   src={p3 ? up : dwon}
@@ -74,9 +74,9 @@ export default function Contact() {
             </div>
             {p3 && (
               <div className="ans">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the standard dummy
-                text ever since the 1500s
+                DG COLLAR 100% sustainable power sources, producing zero harmful
+                emissions, ensuring environmentally friendly and efficient
+                livestock management.
               </div>
             )}
           </div>

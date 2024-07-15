@@ -76,8 +76,22 @@
     color: white;
     border: none;
     border-radius: 10px;
-    background-image: linear-gradient(to right , var(--blue) , var(--normgreen));
     
+}
+.ps-1{
+    background-color: black;
+}
+.ps-1:hover{
+    background-color: var(--trq);
+    color: black;
+}
+.ps-2{
+    background-image: linear-gradient(to right , var(--blue) , var(--normgreen));
+}
+.ps-2:hover{
+    color: black;
+    background-image: linear-gradient(to left , var(--blue) , var(--normgreen));
+
 }
 .price-lnk{
     align-self: center;
